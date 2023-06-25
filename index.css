@@ -1,0 +1,383 @@
+@import url(“https:\\fonts.cdnfonts.com/css/gilroy-bold”);
+
+Body {
+    Font-family: ‘gilroy-medium’;
+    Line-height: 1.5;
+    Width: 1440px;
+}
+
+/* * {
+    Box-sizing: border-box;
+} */
+.main-menu {
+    Width: 1440px;
+    Height: 1024px;
+
+}
+
+.nav-bar {
+    Display: flex;
+    Align-items: center;
+    Gap: 140px;
+    Margin-left: 145px;
+    Margin-right: 145px;
+    Margin-top: 12px;
+
+}
+
+Li {
+    List-style: none;
+}
+
+.scissors {
+    Display: flex;
+    Padding: 8px;
+    Align-items: flex-start;
+    Gap: 8px;
+}
+
+.nav-list-bar {
+    Display: flex;
+    Align-items: flex-start;
+    Gap: 50px;
+    Margin-left: -30px;
+    Margin-right: 20px;
+
+}
+
+#nav-bar-title {
+    Color: #0065FE;
+    Font-size: 18px;
+    Font-family: Gilroy-Medium;
+    Text-decoration: none;
+}
+
+.nav-bar-link {
+    Text-decoration: none;
+    Color: #141414;
+}
+
+.login-link {
+    Display: flex;
+    Gap: 30px;
+    Margin-right: 20px;
+}
+
+.login-link>button {
+    Margin-right: -90px;
+    Margin-left: 10px;
+    Border-radius: 100px;
+    Height: 10px;
+    Display: flex;
+    Width: 142px;
+    Height: 44px;
+    Padding: 12px 24px;
+    Justify-content: center;
+    Align-items: center;
+    Gap: 10px;
+    Background-color: #0065FE;
+    Border: none;
+    Color: white;
+}
+
+.login-link>a {
+    Font-size: 16px;
+    Text-decoration: none;
+    Color: #0065FE;
+    Padding-top: 10px;
+
+}
+
+.header-title {
+    Display: flex;
+    Position: relative;
+    Flex-direction: column;
+    Align-items: center;
+    Justify-content: center;
+    Margin-top: -850px;
+    ;
+}
+
+h2 {
+    Display: flex;
+    Width: 948px;
+    Height: 200px;
+    Flex-direction: ;
+    Color: #141414;
+    Text-align: center;
+    Font-size: 48px;
+    Line-height: 96px;
+    Margin-top: -25px;
+    Text-align: center;
+}
+
+h2.header {
+    Margin-top: -70px;
+    ;
+}
+
+.underline-img {
+    Margin-top: -60px;
+    Padding-top: -15px;
+}
+
+.header-paragraph {
+    Text-align: center;
+}
+
+.signup-container {
+    Display: flex;
+    Align-items: center;
+    Gap: 56px;
+    Margin-top: 40px;
+}
+
+.signup-container>button {
+    Display: flex;
+    Width: 142px;
+    Height: 44px;
+    Padding: 12px 24px;
+    Justify-content: center;
+    Align-items: center;
+    Gap: 10px;
+    Border-radius: 100px;
+    Border: none;
+    Background-color: #0065FE;
+    Color: white;
+}
+
+.signup-container>a {
+    Font-size: 16px;
+    Text-decoration: none;
+    Color: #0065FE;
+}
+
+.chain {
+    Width: 500px;
+    Height: 150px;
+    Flex-shrink: 0;
+    Margin-left: 400px;
+    Margin-top: 35px;
+    Border: 1px solid #0065FE;
+    Border-radius: 24px;
+    Display: inline-flex;
+    Padding: 40px 60px;
+    Flex-direction: column;
+    Justify-content: center;
+    Align-items: flex-start;
+    Gap: 16px;
+
+}
+
+p.chain-box-text {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    text-align: center;
+}
+
+.box-chain {
+    Margin-top: 30px;
+}
+
+.chain-image {
+    Margin-top: -220px;
+    Margin-left: -60px;
+    z-index: -1;
+}
+
+.layer-image {
+    Width: 1440px;
+    Height: 93px;
+    Flex-shrink: 0;
+    Margin-top: 60px;
+}
+
+.signup-container {
+    Display: inline-flex;
+    Padding: 0px 0px 130px 0px;
+    Flex-direction: column;
+    Align-items: center;
+    Gap: 128px;
+    Background: #FFF;
+}
+
+.first-box {
+    Display: flex;
+    Padding: 60px 140px;
+    Justify-content: center;
+    Align-items: center;
+    Gap: 120px;
+    Background-color: #F9FBFD;
+    Width: 1158px;
+}
+
+.first-box-aside {
+    Display: flex;
+    Align-items: flex-start;
+    Gap: 10px;
+    Font-size: 40px;
+    Width: 337px;
+    Flex-direction: column;
+    Font-family: ‘gilroy-medium’;
+    Font-weight: 100;
+
+}
+
+.second-box {
+    Width: 1200px;
+}
+
+.first-box-aside>p>span {
+    Color: #0065FE;
+}
+
+.second-box-aside {
+    Display: flex;
+    Justify-content: flex-end;
+    Align-items: center;
+    Gap: 72px;
+    Margin-top: -25px;
+    Font-size: 10px;
+}
+
+.second-box-aside>div>h3 {
+    Font-size: 30px;
+}
+
+.second-box1 {
+    Align-items: flex-start;
+    Padding-top: -15px;
+    Margin-top: -10px;
+}
+
+.second-box3 {
+    Align-items: flex-start;
+}
+
+.second-box4 {
+    Margin-top: -20px;
+}
+
+.line {
+    Width: 3.6px;
+    Height: 48px;
+    Background-color: #4D6B88;
+}
+
+.big-box {
+    Display: flex;
+    Flex-direction: column;
+    Align-items: flex-start;
+    Gap: 16px;
+}
+
+.big-box>p {
+    Display: flex;
+    Width: 370px;
+    Height: 192px;
+    Flex-direction: column;
+    Margin-top: -160px;
+}
+
+.big-box>h2 {
+    Color: #141414;
+    Font-size: 40px;
+    Line-height: 32px;
+    Margin-bottom: 5px;
+}
+
+.big-box>h2>span {
+    Color: #0065FE;
+}
+
+.line {
+    Margin-bottom: -25px;
+    Margin-left: -8px;
+}
+
+.grid-box {
+    Display: flex;
+    Flex-direction: column;
+    Align-items: flex-start;
+    Gap: 64px;
+    Margin-left: 600px;
+    Margin-top: -270px;
+}
+
+.grid-box1 {
+    Display: flex;
+    Align-items: flex-start;
+    Gap: 28px;
+}
+
+.grid-box2 {
+    Display: flex;
+    Align-items: flex-start;
+    Gap: 28px;
+}
+
+.grid-box1>div>img {
+    Width: 56px;
+    Height: 56px;
+    Flex-shrink: 0;
+    Border-radius: 56px;
+    Background: rgba(50, 132, 255, 0.13);
+}
+
+.grid-box2>div>img {
+    Width: 56px;
+    Height: 56px;
+    Flex-shrink: 0;
+    Border-radius: 56px;
+    Background: rgba(50, 132, 255, 0.13);
+}
+
+
+
+.price-center {
+    Align-items: center;
+    Gap: 12px;
+    Justify-content: center;
+    Width: 1200px;
+    Margin-left: -20px;
+}
+
+Section>div.prices {
+    Margin-left: -50px;
+
+}
+
+
+.price-title {
+    Display: flex;
+    Align-items: center;
+    Gap: 16px;
+    Margin-left: 155px;
+}
+
+.price-heading {
+    Color: #141414;
+    Text-align: center;
+    Font-size: 40px;
+    Line-height: 48px;
+    Margin-bottom: 5px;
+}
+
+.price-title>h1>span {
+    Color: #005AE2;
+}
+
+.pricing-paragraph {
+    Display: flex;
+    Width: 570px;
+    Height: 52px;
+    Flex-direction: column;
+    Color: #141414;
+    Text-align: center;
+    Font-size: 16px;
+    Font-family: Gilroy-Medium;
+    Line-height: 24px;
+    Margin-top: 5px;
+    Margin-left: 150px;
+}
